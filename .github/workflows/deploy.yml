@@ -18,6 +18,4 @@ jobs:
         server: ftpupload.net
         username: if0_43133986
         password: ${{ secrets.FTP_PASSWORD }}
-        # Ruta en el servidor (usualmente dentro de htdocs de tu dominio)
-        # Reemplaza con la ruta remota correcta de tu hosting
         server-dir: /htdocs/
